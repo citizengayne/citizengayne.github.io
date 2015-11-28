@@ -1,0 +1,264 @@
+@import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
+@import url(http://fonts.googleapis.com/css?family=Londrina+Solid);
+@import url(http://fonts.googleapis.com/css?family=Kreon);
+
+body {
+      letter-spacing: 0.1em;
+      line-spacing: 3em;
+      font-weight: 100;
+      background-color: #F3F3F3;
+      color: #4f5650;
+      font-family: 'Londrina Solid', cursive;
+      text-transform: uppercase;
+}
+
+      body a {
+            color: #4f5650;
+      }
+      
+      body h2 {
+            font-size: 4rem;
+            text-shadow: 0.1rem 0.1rem #4f5650;
+            color: #c98f67;
+      }
+      
+      body h3 {
+            padding: 1em;
+      }
+
+
+
+header img{
+      border-radius: 30%;
+      padding: 0;
+      margin: 0;
+      width: 12%;
+}
+
+
+#head {
+      background-color: #c98f67;
+      padding: 2em 0 7.1em 0;
+}
+
+      #head * {
+            color: #f4f0d0;
+      }
+      
+      h1{
+            color: #f4f0d0;
+            text-shadow: 0.2rem 0.2rem #4f5650;
+            letter-spacing: 0.5rem;
+            font-family: 'Londrina Solid', cursive;
+            padding-top: 0.1em;
+      }
+  
+
+#buttons {
+      background-color: #4f5650;
+      padding: 5em 0 5em 0;
+      border-top: 3px solid #99cc99;
+      border-bottom: 3px solid #99cc99;
+}
+
+#buttons a{
+      color: #f4f0d0;
+      font-weight: 200;
+      font-size: 1.8rem;
+      border: solid 2px #f4f0d0;
+      border-radius: 20px;
+      height: 50%;
+      padding: 30px;
+}
+
+#interviews {
+      background-color: #f4f0d0;
+      padding: 3em 0 7em 0;
+      border-bottom: 3px solid #99cc99;
+}
+
+      #interviews a {
+            font-size: 21px;
+      }
+      
+      #interviews h2 {
+            padding-bottom: 1em;
+      }
+      
+      #interviews #mash {
+            font-size: 90%;
+      }
+
+      #interviews ul li img {
+            background: #c98f67;
+            border-radius: 50%;
+            padding: 1em;
+            box-shadow: 0.2rem 0.2rem #4f5650;
+            margin-bottom: 0.3rem;
+      }
+
+#webseries {
+      background-color: #c98f67;
+      color: #f4f0d0; 
+      padding: 3em 0 10em 0;
+      border-bottom: 3px solid #99cc99;
+}
+
+      #webseries h2 {
+            color: #f4f0d0;
+            padding-bottom: 1em;
+      }
+      
+      #webseries a{
+            color: #FFF;
+      }
+      
+      #webseries img:hover {
+            background: #99cc99;
+      }
+      
+      #webseries ul li img {
+            background: #f4f0d0;
+            border-radius: 50%;
+            padding: 1em;
+            box-shadow: 0.2rem 0.2rem #4f5650;
+            
+      }
+
+#festivals {
+      background-color: #FFF;
+      padding: 3em 0 3em 0;
+      border-bottom: 3px solid #99cc99;
+}
+
+      #festivals img {
+            padding: 1em;
+      }
+
+#reviews {
+      background-color: #4f5650;
+      color: #f4f0d0;
+      padding: 0 0 4em 0;
+      font-size: 2.8rem;
+      text-justify: inter-ideograph;
+}
+
+      .reviews {
+            padding: 0 0 1em 0;
+      }
+
+      .reviews h2 {
+            text-shadow: 0.1rem 0.1rem #99cc99;
+            padding: 0.5em 0 0.5em 0;
+      }
+      
+      .reviews h4 {
+            color:  #c98f67;
+            text-align: center;
+            font-size: 0.7em;
+            
+      }
+
+      .reviews a {
+            color: #f4f0d0;
+            padding: 0px;
+      }
+      
+            .reviews a:hover {
+                  color: #c98f67;
+            }
+
+#clients {
+      background-color: #FFF;
+      padding: 2em 0 4em 0;
+}
+
+      #clients img {
+            padding: 1em;
+      }
+      
+      #clients h4 {
+            color:  #c98f67;
+      }
+
+#contact p{
+      font-size: 30px;
+}
+
+      #contact a{
+            color: #c98f67;
+            text-decoration: underline;
+      }
+
+#footer {
+      padding-top: 20px;
+      color: #4f5650;
+      background-color: #c98f67;
+      border-bottom: 3px solid #99cc99;
+}
+
+      #footer p { 
+            font-size: 0.8rem !important;
+            text-align: center;
+      }
+      
+      #footer a {
+            color: #99cc99;
+      }
+      
+            #footer a:hover {
+                  text-decoration: overline;
+            }
+      
+    
+@media only screen
+and (max-width : 400px) {
+
+      #head img {
+            min-width: 70%;
+      }
+      
+      #reviews {
+            font-size: 1.4rem;
+      }
+}
+      
+@media only screen
+and (min-width: 400px)
+and (max-width : 1020px) {
+     
+      header {
+            padding: 0;
+      }
+     
+      #head {
+            padding-top: 2em;
+            padding-bottom: 0;
+      }
+      
+      #head h1 {
+            font-size: 500%;
+      }
+      
+      #head img{
+            width: 15%;
+      }
+      
+      #reviews {
+            font-size: 1.4rem;
+      }
+      
+      #interviews h2 {
+            font-size: 3em;
+      }
+    
+      
+      #festivals img {
+            width: 70%;
+      }
+      
+      #clients img {
+            width: 70%;
+      }
+}
+
